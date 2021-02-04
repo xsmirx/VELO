@@ -1,0 +1,78 @@
+// Обнуление ==============================================
+@import "nullstyle";
+
+// Шрифт ==================================================
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+// Переменные =============================================
+
+// Шаблоны ================================================
+
+// Миксины ================================================
+
+// Общие стили ============================================
+
+body {
+  font-family: "Lato";
+  font-size: 18px;
+  background-color: #fff;
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #353738;
+  letter-spacing: 3.6px;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #353738;
+  letter-spacing: 3.6px;
+  line-height: 24px;
+}
+
+// Основные стили==========================================
+@import "_text-block"; // text block (icon, title,subtitle)
+// ========================================================
+
+// ========================================================
+// content styles =========================================
+@import "header"; // header whit burger (adaptive)
+@import "main-screen"; // background image on main screen
+@import "generation"; // genetation text block
+@import "brands"; //brends block (adaptive, 3 colums)
+@import "reviews"; // reviews block (social media icon, title, text review, bullits)
+@import "shop"; // galery block
+@import "button-block"; // button block element
+@import "form"; // subscribe form
+@import "footer"; // footer
+// ========================================================
